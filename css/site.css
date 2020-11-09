@@ -1,0 +1,36 @@
+body, html {
+    height: 100vh;
+}
+
+.parallax {
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.start-tour {
+    background-color: #ffec3e;
+    width: 212px;
+    padding: 16px;
+    text-align: center;
+    justify-items: center;
+    color: black;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-top: 16px;
+}
+
+.start-tour:hover {
+    background-color: #ebd516;
+}
+
+@media only screen and (min-width: 992px){
+    .parallax {
+        background-attachment: fixed;
+    }
+}
